@@ -1,0 +1,4 @@
+.home__container {
+  max-width: min(96rem, 100% - 1.6rem);
+  margin-inline: auto;
+}
