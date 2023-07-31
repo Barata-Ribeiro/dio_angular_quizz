@@ -1,27 +1,54 @@
 # DioQuizz
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+## 🌐 Description
 
-## Development server
+This course project was built during the [Angular Course](https://github.com/Barata-Ribeiro/dio_formacao_angular) (Check my study repository) from DIO.me and consists of creating a simple BuzzFeed quiz-like. In this project, 
+a fake data JSON file was provided containing questions, answers, and the results. A simple layout is then developed through componentization so, using everything learned through the course, 
+we can iterate through the data and dynamically generate the components based on the number of questions and answers. The result is finally generated based on the number of answers given to either alias 'A' or 'B';
+the one with more answers generates a component showing the data for either set alias.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Built With
 
-## Code scaffolding
+- [Angular 16](https://angular.io/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠️ Project Setup
 
-## Build
+You'll need to have [Node.js](https://nodejs.org/en/download/), [npm](https://www.npmjs.com/get-npm), and the [Angular CLI](https://angular.io/guide/setup-local) installed on your machine.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Install Angular CLI:
 
-## Running unit tests
+```bash
+npm install -g @angular/cli
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Clone the repository:
 
-## Running end-to-end tests
+```bash
+git clone https://github.com/Barata-Ribeiro/dio_angular_quizz.git
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. Navigate to the project folder:
 
-## Further help
+```bash
+cd dio_angular_quizz
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the local development server:
+
+```bash
+ng s -o
+```
+
+## 🤝 Contributing
+
+Although this was a course project, if you want to increment on it, open up a pull request, and I'll check it out.
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
